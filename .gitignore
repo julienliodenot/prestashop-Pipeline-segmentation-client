@@ -1,0 +1,32 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Data (do not push real business/customer data)
+data/raw/*
+data/intermediate/*
+data/processed/*
+!data/raw/.gitkeep
+!data/intermediate/.gitkeep
+!data/processed/.gitkeep
+!data/processed/sample_anonymized.csv
+
+# BI artifacts (keep only curated assets)
+*.pbix.autosave
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local logs
+*.log
