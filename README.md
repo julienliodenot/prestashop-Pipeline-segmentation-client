@@ -116,14 +116,11 @@ Il y a un MegaNode LLM facultatif qui permet de demander à un modele externe de
 
 Ce projet manipule des données clients réelles. Pour des raisons évidentes de confidentialité et de conformité RGPD, le repository est conçu pour être partagé publiquement sans exposer de données personnelles :
 
-- Les données brutes sont exclues via `.gitignore`.
+- Les données brutes sont exclues.
 
 - Les clés API sont chargées via des variables d’environnement, et ne sont jamais codées en dur.
 
-- Le script `scripts/anonymize_export.py` hache les identifiants et masque les champs de contact (noms, emails, téléphones).
-
-- Seul le fichier `data/processed/sample_anonymized.csv` est partagé publiquement à des fins de démonstration du schéma de données.
-
+- Les données exemples ont été modifiées et anonymisées et ne refletent donc aucune donnée réelle.
 
 ---
 
